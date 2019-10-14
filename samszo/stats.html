@@ -1,0 +1,204 @@
+  <!DOCTYPE html>
+  <html lang='en'>
+  <head>
+    <meta charset='UTF-8'>
+    <title>Statistiques de la formation</title>
+    <script src='//d3js.org/d3.v5.min.js'></script>
+    <style>
+        html, body, #wrapper{
+            height:'100%';
+            width:'100%';
+        }
+    </style>
+  </head>
+  <body>
+    <div id='wrapper'></div>
+
+    <script>
+
+    var urlData = 'https://docs.google.com/spreadsheets/d/e/2PACX-1vRPYNknmIr5_bU7GfiJtuS_b9fGae7HZwcjAiMoAC24fLzIfxRtXQySMu3E95D3M595D3DYT7NUtvzt/pub?gid=760811187&single=true&output=csv';
+    d3.csv(urlData)
+        .then(function(data) {
+            console.log(data);
+            var div = d3.select('#wrapper').append('div')
+                .attr('height','100%')
+                .attr('width','100%');
+            div.selectAll('div').data(data).enter().append('div')
+                .html(function(d,i){
+                    return i+" "+d['Votre nom'];
+                });
+            /*
+            var svg = d3.select('#wrapper').append('svg')
+                .attr('height','100%')
+                .attr('width','100%');
+            svg.selectAll('circle').data(data).enter().append('circle')
+                .attr("r",50)            
+                .attr("cx",50)
+                .attr("cy",function(d,i){
+                    return 100*(i+1);
+                });
+            */
+        })
+        .catch(function(error){
+            console.log(error);
+        });
+
+
+    /*
+    //merci à https://gist.github.com/volodalexey/1b3a0b505b8fc4dc844979a540b63a42
+      function renderChart (wrapper, curData) {
+        if (!wrapper) {
+          return
+        }
+        const { select: d3Select, pie: d3Pie,
+          arc: d3Arc, interpolate: d3Interpolate,
+          easeBounce: d3EaseBounce, easeElastic: d3EaseElastic,
+        } = d3
+        const width = 500
+        const height = 500
+        const DURATION = 1500
+        // https://groups.google.com/forum/#!topic/d3-js/Rlv0O8xsFhs
+        const svgData = d3Select(wrapper).selectAll('svg').data(['dummy data'])
+        const svgEnter = svgData.enter().append('svg')
+        svgEnter.attr('width', width)
+        svgEnter.attr('height', height)
+        svgEnter.append('g')
+          .attr('transform', `translate(${width / 2},${height / 2})`)
+          .attr('class', 'donut-chart')
+        const svgMerge = svgData.merge(svgEnter)
+        const gMerge = svgMerge.select('g.donut-chart')
+        const pieChart = d3Pie().sort(null).value(pd => pd.value) // by default, data sorts in descending value. this will mess with our animation so we set it to null
+        const radius = Math.min(width, height) / 2
+        const arcPath = d3Arc()
+          .outerRadius(radius - radius * 0.1)
+          .innerRadius(radius - radius * 0.5)
+        const arcLabel = d3Arc()
+          .outerRadius(radius - radius * 0.1)
+          .innerRadius(radius - radius * 0.4)
+        const pieData = gMerge.selectAll('.pie-slice').data(pieChart(curData))
+        const pieEnter = pieData.enter()
+          .append('g')
+          .attr('class', 'pie-slice')
+        pieEnter.append('path')
+          .attr('fill', d => d.data.fill)
+          .attr('d', arcPath)
+          .each(function () {
+            this._current = { startAngle: 0, endAngle: 0 }
+          })
+        pieEnter.append('g')
+          .attr('class', 'label-text-wrapper')
+          .append('text')
+          .text(d => d.data.label)
+        const pieMerge = pieData.merge(pieEnter)
+        pieMerge.select('.label-text-wrapper')
+          .transition()
+          .duration( DURATION )
+          .attr('transform', (d) => `translate(${arcLabel.centroid(d)})`)
+        pieMerge.select('text')
+          .transition()
+          .duration( DURATION )
+          .tween('text', function (d) {
+            const textI = d3Interpolate(this.textContent, d.data.label)
+            return (t) => {
+              this.textContent = textI(t)
+            }
+          })
+        pieMerge.select('path') // https://codepen.io/stefanjudis/pen/gkHwJ
+          .transition()
+          .duration( DURATION )
+          .attrTween('d', function (d) {
+            const _interpolate = d3Interpolate( this._current, d )
+            this._current = _interpolate( 0 )
+            return (t) => {
+              return arcPath( _interpolate( t ) )
+            }
+          })
+        const pathAnimate = (path, dir) => { // http://bl.ocks.org/erichoco/6694616
+          switch(dir) {
+            case 0:
+              path.transition()
+                .duration(DURATION / 2)
+                .ease(d3EaseBounce)
+                .attr('d', d3Arc()
+                  .outerRadius(radius - radius * 0.1)
+                  .innerRadius(radius - radius * 0.5)
+                )
+              break;
+            case 1:
+              path.transition()
+                .duration(DURATION / 2)
+                .ease(d3EaseElastic)
+                .attr('d', d3Arc()
+                  .outerRadius(radius - radius * 0.05)
+                  .innerRadius(radius - radius * 0.6)
+                )
+              break;
+          }
+        }
+        const tooltipData = d3Select(wrapper)
+          .selectAll('div').data(['dummy data'])
+        const tooltipEnter = tooltipData.enter()
+          .append('div')
+          .attr('class', 'tooltip')
+          .style('background', '#ffffff')
+          .style('color', '#000000')
+          .style('display', 'none')
+          .style('top', 0)
+          .style('left', 0)
+          .style('padding', '10px')
+          .style('position', 'absolute')
+        const tooltipMerge = tooltipData.merge(tooltipEnter)
+        // https://codepen.io/lisaofalltrades/pen/jZyzKo
+        pieMerge.on('mouseover', (d, index) => {
+          tooltipMerge
+            .text(d.data.tooltip)
+            .style('box-shadow', `0 0 5px ${curData[index].fill}`)
+            .style('display', 'block')
+          pathAnimate(d3Select(d3.event.target), 1)
+        })
+        pieMerge.on('mousemove', () => {
+          tooltipMerge
+            .style('top', (d3.event.layerY + 10) + 'px') // always 10px below the cursor
+            .style('left', (d3.event.layerX + 10) + 'px'); // always 10px to the right of the mouse
+        })
+        pieMerge.on('mouseout', (d, index) => {
+          tooltipMerge
+            .style('display', 'none')
+          pathAnimate(d3Select(d3.event.fromElement), 0)
+        })
+        pieMerge.on('click', (d) => {
+          console.log('clicked!', d)
+        })
+      }
+      function destroyChart (wrapper) {
+        const {select: d3Select} = d3
+        d3Select(wrapper).selectAll('*').remove()
+      }
+      document.addEventListener('DOMContentLoaded', () => {
+        setInterval(() => {
+          const random1 = Math.round(Math.random()*100)
+          const random2 = Math.round(Math.random()*(100 - random1))
+          const random3 = Math.round(Math.random()*(100 - random1 - random2))
+          const random4 = 100 - random1 - random2 - random3
+          renderChart(document.querySelector('#wrapper'), [
+            { fill: '#d78dcb', value: random1, label: `${random1}%`, tooltip: `${random1}% Tooltip` },
+            { fill: '#8abe6e', value: random2, label: `${random2}%`, tooltip: `${random2}% Tooltip` },
+            { fill: '#5a98d5', value: random3, label: `${random3}%`, tooltip: `${random3}% Tooltip` },
+            { fill: '#858585', value: random4, label: `${random4}%`, tooltip: `${random4}% Tooltip` },
+          ])
+        }, 5000)
+        const random1 = Math.round(Math.random()*100)
+        const random2 = Math.round(Math.random()*(100 - random1))
+        const random3 = Math.round(Math.random()*(100 - random1 - random2))
+        const random4 = 100 - random1 - random2 - random3
+        renderChart(document.querySelector('#wrapper'), [
+          { fill: '#d78dcb', value: random1, label: `${random1}%`, tooltip: `${random1}% Tooltip` },
+          { fill: '#8abe6e', value: random2, label: `${random2}%`, tooltip: `${random2}% Tooltip` },
+          { fill: '#5a98d5', value: random3, label: `${random3}%`, tooltip: `${random3}% Tooltip` },
+          { fill: '#858585', value: random4, label: `${random4}%`, tooltip: `${random4}% Tooltip` },
+        ])
+      })
+    */
+    </script>
+  </body>
+  </html>
