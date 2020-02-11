@@ -1,0 +1,130 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<!-- Created with Inkscape (http://www.inkscape.org/) -->
+
+<svg:svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   width="800"
+   height="600"
+   viewBox="0 0 211.66666 158.75"
+   version="1.1"
+   id="svg8"
+   inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
+   sodipodi:docname="modele.svg">
+  <svg:defs
+     id="defs2" />
+  <sodipodi:namedview
+     id="base"
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1.0"
+     inkscape:pageopacity="0.0"
+     inkscape:pageshadow="2"
+     inkscape:zoom="1.3466667"
+     inkscape:cx="346.53465"
+     inkscape:cy="300"
+     inkscape:document-units="mm"
+     inkscape:current-layer="layer1"
+     showgrid="false"
+     units="px"
+     inkscape:window-width="1920"
+     inkscape:window-height="1001"
+     inkscape:window-x="-9"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1" />
+  <svg:metadata
+     id="metadata5">
+    <rdf:RDF>
+      <cc:Work
+         rdf:about="">
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <dc:title></dc:title>
+      </cc:Work>
+    </rdf:RDF>
+  </svg:metadata>
+  <svg:g
+     inkscape:label="Calque 1"
+     inkscape:groupmode="layer"
+     id="layer1"
+     transform="translate(0,-138.24998)">
+    <svg:path
+       sodipodi:type="star"
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.70329455;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path815"
+       sodipodi:sides="6"
+       sodipodi:cx="75.904549"
+       sodipodi:cy="202.38657"
+       sodipodi:r1="57.086292"
+       sodipodi:r2="49.438179"
+       sodipodi:arg1="0.51391968"
+       sodipodi:arg2="1.0375185"
+       inkscape:flatsided="true"
+       inkscape:rounded="0"
+       inkscape:randomized="0"
+       d="m 125.61668,230.44987 -49.159596,29.02031 -49.712131,-28.0633 -0.552535,-57.08361 49.159596,-29.02032 49.712126,28.0633 z"
+       transform="matrix(0.99411191,0,0,0.5084289,30.514754,115.40423)" />
+    <svg:flowRoot
+       xml:space="preserve"
+       id="flowRoot817"
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"><svg:flowRegion
+         id="flowRegion819"><svg:rect
+           id="rect821"
+           width="239.40616"
+           height="73.741135"
+           x="283.85287"
+           y="243.41615" /></svg:flowRegion><svg:flowPara
+         id="flowPara823"></svg:flowPara></svg:flowRoot>    <svg:text
+       xml:space="preserve"
+       style="font-style:normal;font-weight:normal;font-size:10.58333302px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
+       x="118.93494"
+       y="211.20647"
+       id="text827"><svg:tspan
+         sodipodi:role="line"
+         id="tspan825"
+         x="118.93494"
+         y="220.57024"
+         style="stroke-width:0.26458332" /></svg:text>
+    <svg:rect
+       style="fill:none;fill-rule:evenodd;stroke:#5d11f0;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="rect829"
+       width="101.29515"
+       height="28.865108"
+       x="54.533726"
+       y="152.97398"
+       onclick="console.log('toto');">
+      < />
+    </svg:rect>
+    <svg:path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01d11;stroke-width:0.5;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path831"
+       sodipodi:type="arc"
+       sodipodi:cx="107.20192"
+       sodipodi:cy="273.29834"
+       sodipodi:rx="58.799297"
+       sodipodi:ry="17.506155"
+       sodipodi:start="0"
+       sodipodi:end="6.2617701"
+       sodipodi:open="true"
+       d="m 166.00122,273.29834 a 58.799297,17.506155 0 0 1 -58.4845,17.5059 58.799297,17.506155 0 0 1 -59.110727,-17.31845 58.799297,17.506155 0 0 1 57.851567,-17.69135 58.799297,17.506155 0 0 1 59.73017,17.12903" />
+    <svg:flowRoot
+       xml:space="preserve"
+       id="flowRoot833"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,0.74581659,135.72283)"><svg:flowRegion
+         id="flowRegion835"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"><svg:rect
+           id="rect837"
+           width="277.72278"
+           height="46.039604"
+           x="256.18811"
+           y="98.019798"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '" /></svg:flowRegion><svg:flowPara
+         id="flowPara839"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle">Jeu-vidéo</svg:flowPara></svg:flowRoot>  </svg:g>
+</svg:svg>
