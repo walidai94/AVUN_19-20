@@ -10,13 +10,13 @@
    xmlns:xlink="http://www.w3.org/1999/xlink"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
-   width="297mm"
-   height="210mm"
-   viewBox="0 0 297 210"
+   width="800"
+   height="600"
+   viewBox="0 0 211.66667 158.75"
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="diagramme eco exemple.svg">
+   sodipodi:docname="modele1.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.58796296"
-     inkscape:cx="561.25984"
+     inkscape:cx="209.19685"
      inkscape:cy="396.85039"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -37,7 +37,7 @@
      inkscape:window-x="-8"
      inkscape:window-y="-8"
      inkscape:window-maximized="1"
-     units="mm" />
+     units="px" />
   <metadata
      id="metadata5">
     <rdf:RDF>
@@ -46,7 +46,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title />
+        <dc:title></dc:title>
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -54,29 +54,29 @@
      inkscape:label="Capa 1"
      inkscape:groupmode="layer"
      id="layer1"
-     transform="translate(0,-87)">
+     transform="translate(0,-138.25001)">
     <circle
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:1.35142684;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:1.18242955;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4562-7"
-       cx="170.46941"
-       cy="241.80351"
-       r="25.998669" />
+       cx="136.55496"
+       cy="253.35115"
+       r="22.747507" />
     <circle
-       style="fill:#ffffff;stroke:#ff0000;stroke-width:1.46842933;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#ff0000;stroke-width:1.28480077;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4562"
-       cx="111.05513"
-       cy="239.49413"
-       r="28.249557" />
+       cx="84.570518"
+       cy="251.33055"
+       r="24.716923" />
     <ellipse
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.52916664;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.4629938;stroke-miterlimit:4;stroke-dasharray:none"
        id="path893"
-       cx="147.60001"
-       cy="247.95"
-       rx="97.649994"
-       ry="42.75" />
+       cx="116.54543"
+       cy="258.72903"
+       rx="85.438766"
+       ry="37.404068" />
     <g
        id="g4537"
-       transform="matrix(0.55544354,0,0,0.55544354,88.381128,178.86978)">
+       transform="matrix(0.48598475,0,0,0.48598475,64.731925,198.28735)">
       <path
          transform="rotate(58.951486,45.357143,73.994049)"
          style="fill:#ffffff;stroke:#ff0000;stroke-width:3.06500006;stroke-miterlimit:4;stroke-dasharray:none"
@@ -117,181 +117,181 @@
        inkscape:randomized="0"
        d="M 84.666668,97.428573 44.717012,119.75436 5.407488,96.319834 6.0476192,50.559525 45.997275,28.23374 85.306799,51.668265 Z"
        style="fill:#ffffff;stroke:#0000ff;stroke-width:3.06500006;stroke-miterlimit:4;stroke-dasharray:none"
-       transform="matrix(0.2864776,0.47586563,-0.47586563,0.2864776,194.15644,177.18775)" />
+       transform="matrix(0.25065328,0.41635815,-0.41635815,0.25065328,157.27992,196.81566)" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.87844372px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14696109"
-       x="154.68163"
-       y="219.84323"
+       style="font-style:normal;font-weight:normal;font-size:5.1433382px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12858346"
+       x="122.74148"
+       y="234.13702"
        id="text4581"><tspan
          sodipodi:role="line"
          id="tspan4579"
-         x="154.68163"
-         y="219.84323"
-         style="stroke-width:0.14696109">Algorithme</tspan></text>
+         x="122.74148"
+         y="234.13702"
+         style="stroke-width:0.12858346">Algorithme</tspan></text>
     <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.58784437;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.51433384;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4531"
-       width="92.694527"
-       height="58.26363"
-       x="18.310154"
-       y="116.51716"
+       width="81.102982"
+       height="50.977703"
+       x="3.4233987"
+       y="143.73198"
        onclick="console.log('toto')" />
     <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.29392222;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.25716695;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4533"
-       width="72.069016"
-       height="33.740097"
-       x="26.733402"
-       y="121.9026" />
+       width="63.056713"
+       height="29.520863"
+       x="10.793311"
+       y="148.44397" />
     <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.12268936;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.10734693;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4535"
-       width="47.025799"
-       height="12.477125"
-       x="41.457314"
-       y="122.94314" />
+       width="41.145176"
+       height="10.916847"
+       x="23.675982"
+       y="149.35439" />
     <rect
-       style="fill:none;stroke:#0000ff;stroke-width:0.29392225;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:none;stroke:#0000ff;stroke-width:0.25716698;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4533-5"
-       width="72.069016"
-       height="33.740097"
-       x="35.873909"
-       y="128.12909" />
+       width="63.056713"
+       height="29.520863"
+       x="18.790787"
+       y="153.89183" />
     <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.12268936;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.10734693;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4535-1"
-       width="47.025803"
-       height="12.477125"
-       x="45.682728"
-       y="132.65369" />
+       width="41.14518"
+       height="10.916847"
+       x="27.373001"
+       y="157.85062" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.04533052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15113327"
-       x="43.274834"
-       y="134.53961"
+       style="font-style:normal;font-weight:normal;font-size:5.28935575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1322339"
+       x="25.711536"
+       y="161.032"
        id="text4539"
        transform="scale(1.0366465,0.964649)"><tspan
          sodipodi:role="line"
          id="tspan4537"
-         x="43.274834"
-         y="134.53961"
-         style="stroke-width:0.15113327">Actualité 1</tspan></text>
+         x="25.711536"
+         y="161.032"
+         style="stroke-width:0.1322339">Actualité 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.04533052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15113327"
-       x="29.296318"
-       y="156.93869"
+       style="font-style:normal;font-weight:normal;font-size:5.28935575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1322339"
+       x="13.48105"
+       y="180.63005"
        id="text4539-3"
        transform="scale(1.0366465,0.964649)"><tspan
          sodipodi:role="line"
          id="tspan4537-8"
-         x="29.296318"
-         y="156.93869"
-         style="stroke-width:0.15113327">Page Pays 1</tspan></text>
+         x="13.48105"
+         y="180.63005"
+         style="stroke-width:0.1322339">Page Pays 1</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.04533052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15113327"
-       x="19.71101"
-       y="176.73901"
+       style="font-style:normal;font-weight:normal;font-size:5.28935575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1322339"
+       x="5.0943947"
+       y="197.95433"
        id="text4539-5"
        transform="scale(1.0366465,0.964649)"
-       onclick=" window.open(https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-scientifique-et-universitaire/veille-scientifique-et-technologique/, _blank)"><tspan
+       onclick=" window.open('https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-scientifique-et-universitaire/veille-scientifique-et-technologique/','_blank');"><tspan
          sodipodi:role="line"
          id="tspan4537-1"
-         x="19.71101"
-         y="176.73901"
-         style="stroke-width:0.15113327">Site Web France Diplomatie</tspan></text>
+         x="5.0943947"
+         y="197.95433"
+         style="fill:#00ff00;stroke-width:0.1322339">Site Web France Diplomatie</tspan></text>
     <ellipse
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.29392219;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.25716692;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4567"
-       cx="106.2264"
-       cy="253.9803"
-       rx="10.287277"
-       ry="5.6684999" />
+       cx="80.345634"
+       cy="264.00522"
+       rx="9.000843"
+       ry="4.9596481" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.87844372px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14696109"
-       x="99.298233"
-       y="255.44991"
+       style="font-style:normal;font-weight:normal;font-size:5.1433382px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12858346"
+       x="74.283836"
+       y="265.29105"
        id="text4571"><tspan
          sodipodi:role="line"
          id="tspan4569"
-         x="99.298233"
-         y="255.44991"
-         style="stroke-width:0.14696109">pays</tspan></text>
+         x="74.283836"
+         y="265.29105"
+         style="stroke-width:0.12858346">pays</tspan></text>
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.29392222;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="m 106.01646,249.99135 -2.93922,-11.75689"
+       style="fill:none;stroke:#000000;stroke-width:0.25716695;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 80.161941,260.51509 77.590273,250.22842"
        id="path4577"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.40716439;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
-       d="M 91.505706,207.35447 33.313265,151.31308"
+       style="fill:none;stroke:#000000;stroke-width:0.35624808;stroke-linecap:butt;stroke-linejoin:miter;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       d="M 67.465771,223.21 16.550356,174.17665"
        id="path4581"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.04533052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15113327"
-       x="51.473469"
-       y="144.84863"
+       style="font-style:normal;font-weight:normal;font-size:5.28935575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1322339"
+       x="32.884922"
+       y="170.05186"
        id="text4539-4"
        transform="scale(1.0366465,0.964649)"><tspan
          sodipodi:role="line"
          id="tspan4537-86"
-         x="51.473469"
-         y="144.84863"
-         style="stroke-width:0.15113327">Actualité n</tspan></text>
+         x="32.884922"
+         y="170.05186"
+         style="stroke-width:0.1322339">Actualité n</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:6.04533052px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.15113327"
-       x="66.50312"
-       y="165.82947"
+       style="font-style:normal;font-weight:normal;font-size:5.28935575px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1322339"
+       x="46.035103"
+       y="188.40903"
        id="text4539-3-1"
        transform="scale(1.0366465,0.964649)"><tspan
          sodipodi:role="line"
          id="tspan4537-8-4"
-         x="66.50312"
-         y="165.82947"
-         style="stroke-width:0.15113327">Page Pays n</tspan></text>
+         x="46.035103"
+         y="188.40903"
+         style="stroke-width:0.1322339">Page Pays n</tspan></text>
     <rect
-       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.58784437;stroke-miterlimit:4;stroke-dasharray:none"
+       style="fill:#ffffff;stroke:#0000ff;stroke-width:0.51433384;stroke-miterlimit:4;stroke-dasharray:none"
        id="rect4531-6"
-       width="92.694527"
-       height="58.26363"
-       x="135.02779"
-       y="115.86733" />
+       width="81.102982"
+       height="50.977703"
+       x="105.54537"
+       y="143.16342" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.14696109px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 189.40609,204.18445 c 0,-0.29098 0,-0.58196 0,-0.87294"
+       style="fill:none;stroke:#000000;stroke-width:0.12858346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 153.12362,220.4364 c 0,-0.2546 0,-0.50919 0,-0.76378"
        id="path863"
        inkscape:connector-curvature="0" />
     <path
-       style="fill:none;stroke:#000000;stroke-width:0.14696109px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
-       d="m 198.83385,174.15533 -9.42776,29.15618"
+       style="fill:none;stroke:#000000;stroke-width:0.12858346px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1"
+       d="m 161.37242,194.16245 -8.2488,25.51017"
        id="path865"
        inkscape:connector-curvature="0" />
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.87844372px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14696109"
-       x="140.17229"
-       y="136.09515"
+       style="font-style:normal;font-weight:normal;font-size:5.1433382px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12858346"
+       x="110.04655"
+       y="160.86172"
        id="text873"><tspan
          sodipodi:role="line"
          id="tspan871"
-         x="140.17229"
-         y="136.09515"
-         style="stroke-width:0.14696109">Exportation en CSV/JSON</tspan></text>
+         x="110.04655"
+         y="160.86172"
+         style="stroke-width:0.12858346">Exportation en CSV/JSON</tspan></text>
     <text
        xml:space="preserve"
-       style="font-style:normal;font-weight:normal;font-size:5.87844419px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.14696109"
-       x="104.10461"
-       y="278.52524"
+       style="font-style:normal;font-weight:normal;font-size:5.14333868px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12858346"
+       x="78.489166"
+       y="285.48077"
        id="text873-8"><tspan
          sodipodi:role="line"
          id="tspan871-4"
-         x="104.10461"
-         y="278.52524"
-         style="stroke-width:0.14696109">Cartographie veille diplomatie</tspan></text>
+         x="78.489166"
+         y="285.48077"
+         style="stroke-width:0.12858346">Cartographie veille diplomatie</tspan></text>
   </g>
 </svg>
