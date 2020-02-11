@@ -16,7 +16,7 @@
    version="1.1"
    id="svg8"
    inkscape:version="0.92.4 (5da689c313, 2019-01-14)"
-   sodipodi:docname="diagramme eco exemple.svg">
+   sodipodi:docname="modele.svg">
   <defs
      id="defs2" />
   <sodipodi:namedview
@@ -27,7 +27,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="0.58796296"
-     inkscape:cx="561.25984"
+     inkscape:cx="209.19685"
      inkscape:cy="396.85039"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -196,12 +196,12 @@
        y="176.73901"
        id="text4539-5"
        transform="scale(1.0366465,0.964649)"
-       onclick=" window.open(https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-scientifique-et-universitaire/veille-scientifique-et-technologique/, _blank)"><tspan
+       onclick=" window.open('https://www.diplomatie.gouv.fr/fr/politique-etrangere-de-la-france/diplomatie-scientifique-et-universitaire/veille-scientifique-et-technologique/','_blank');"><tspan
          sodipodi:role="line"
          id="tspan4537-1"
          x="19.71101"
          y="176.73901"
-         style="stroke-width:0.15113327">Site Web France Diplomatie</tspan></text>
+         style="stroke-width:0.15113327;fill:#00ff00">Site Web France Diplomatie</tspan></text>
     <ellipse
        style="fill:#ffffff;stroke:#0000ff;stroke-width:0.29392219;stroke-miterlimit:4;stroke-dasharray:none"
        id="path4567"
