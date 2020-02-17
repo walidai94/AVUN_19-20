@@ -26,7 +26,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.3466667"
-     inkscape:cx="213.61386"
+     inkscape:cx="387.07025"
      inkscape:cy="300"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -126,14 +126,45 @@
          sodipodi:role="line"
          id="tspan5125"
          x="80.160881"
-         y="215.66026"
-         style="stroke-width:0.26458332">jhkjhkj</tspan></text>
+         y="225.02403"
+         style="stroke-width:0.26458332" /></text>
     <rect
-       style="fill:none;fill-rule:evenodd;stroke-width:0.26458332;stroke:#5d11f0;stroke-opacity:1"
+       style="fill:none;fill-rule:evenodd;stroke:#5d11f0;stroke-width:0.26458332;stroke-opacity:1"
        id="rect5129"
        width="117.09777"
        height="27.702658"
        x="45.974628"
-       y="155.14664" />
-  </g>
+       y="155.14664"
+       onclick="&quot;window.open('https://www.google.com');&quot;" />
+    <flowRoot
+       xml:space="preserve"
+       id="flowRoot833-9"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,1.5368853,186.6197)"
+       inkscape:transform-center-x="5.3047647"
+       inkscape:transform-center-y="-30.649752"><flowRegion
+         id="flowRegion835-8"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"><rect
+           id="rect837-4"
+           width="277.72278"
+           height="46.039604"
+           x="256.18811"
+           y="98.019798"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '" /></flowRegion><flowPara
+         id="flowPara839-3"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle">Joueur</flowPara></flowRoot>    <flowRoot
+       xml:space="preserve"
+       id="flowRoot833-93"
+       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
+       transform="matrix(0.26458333,0,0,0.26458333,2.7663974,241.61461)"><flowRegion
+         id="flowRegion835-5"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"><rect
+           id="rect837-6"
+           width="277.72278"
+           height="46.039604"
+           x="256.18811"
+           y="98.019798"
+           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '" /></flowRegion><flowPara
+         id="flowPara839-7"
+         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle">Ludisme</flowPara></flowRoot>  </g>
 </svg>
