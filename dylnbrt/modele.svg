@@ -5,6 +5,7 @@
    xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
    xmlns:svg="http://www.w3.org/2000/svg"
    xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
    id="svg8"
    version="1.1"
    viewBox="0 0 211.66666 158.75"
@@ -323,22 +324,8 @@
        transform="matrix(0.99411191,0,0,0.5084289,30.514754,100.58747)"
        d="m 125.61668,230.44987 -49.159596,29.02031 -49.712131,-28.0633 -0.552535,-57.08361 49.159596,-29.02032 49.712126,28.0633 z"
        id="path815"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.70329458;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,0.74581659,125.6686)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839">Jeu-vidéo</flowPara></flowRoot>    <text
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.80878873;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <text
        id="text5127"
        y="215.66026"
        x="80.160881"
@@ -355,108 +342,38 @@
        height="27.702658"
        width="117.09777"
        id="rect5129"
-       style="fill:none;fill-rule:evenodd;stroke:#5d11f0;stroke-width:0.26458332;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,-21.193704,173.7834)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-9"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-8"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837-4" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839-3">Joueur</flowPara></flowRoot>    <flowRoot
-       transform="matrix(0.18472186,0,0,0.18472186,-2.8370839,236.33591)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-93"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-5"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837-6" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.37600708px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839-7">Finance</flowPara></flowRoot>    <path
+       style="fill:none;fill-rule:evenodd;stroke:#5d11f0;stroke-width:0.575;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none" />
+    <path
        transform="matrix(0.44202573,0,0,0.29187993,49.850926,144.99475)"
        d="m 125.61668,230.44987 -49.159596,29.02031 -49.712131,-28.0633 -0.552535,-57.08361 49.159596,-29.02032 49.712126,28.0633 z"
        id="path815-5"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.70329458;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,24.097646,170.85822)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-9-0"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-8-7"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837-4-1" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:24px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839-3-5">Développeur</flowPara></flowRoot>    <path
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.83520938;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <path
        transform="matrix(0.44202572,0,0,0.29187992,95.142275,144.71542)"
        d="m 125.61668,230.44987 -49.159596,29.02031 -49.712131,-28.0633 -0.552535,-57.08361 49.159596,-29.02032 49.712126,28.0633 z"
        id="path815-5-7"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.70329458;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f0d611;stroke-width:0.83520941;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <ellipse
        ry="16.315351"
        rx="17.480768"
        cy="259.11871"
        cx="70.251091"
        id="path1700"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.49429384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.18472186,0,0,0.18472186,32.815887,236.41842)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-93-3"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-5-5"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837-6-8" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle;font-size:34.37600726px"
-         id="flowPara839-7-9">Ludisme</flowPara></flowRoot>    <ellipse
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
        ry="16.315351"
        rx="17.480768"
        cy="259.20123"
        cx="105.90405"
        id="path1700-2"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.49429384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
-    <flowRoot
-       transform="matrix(0.18472186,0,0,0.18472186,68.353867,236.62796)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:40px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-93-1"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-5-8"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="46.039604"
-           width="277.72278"
-           id="rect837-6-0" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:34.37600708px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839-7-2">Esthétique</flowPara></flowRoot>    <ellipse
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+    <ellipse
        ry="16.315351"
        rx="17.480768"
        cy="259.41071"
        cx="141.44217"
        id="path1700-3"
-       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.49429384;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
+       style="opacity:1;fill:none;fill-opacity:1;stroke:#f01141;stroke-width:0.3;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1" />
     <path
        id="path1753"
        d="M 73.582731,242.35309 C 67.379318,232.76532 60.125563,223.17755 63.273336,213.58978 v 0 0"
@@ -497,23 +414,97 @@
        id="path1753-90-4"
        d="m 84.627123,248.87328 c 11.905814,-11.94006 19.787787,-18.53489 24.457967,-35.84122 v 0"
        style="fill:none;stroke:#ffeb24;stroke-width:0.28630278px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-3-4)" />
-    <flowRoot
-       transform="matrix(0.26458333,0,0,0.26458333,-25.670094,260.61258)"
-       style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;line-height:1.25;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none"
-       id="flowRoot833-8"
-       xml:space="preserve"><flowRegion
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-         id="flowRegion835-4"><rect
-           style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, '"
-           y="98.019798"
-           x="256.18811"
-           height="44.452301"
-           width="480.89737"
-           id="rect837-45" /></flowRegion><flowPara
-         style="font-style:normal;font-variant:normal;font-weight:normal;font-stretch:normal;font-size:26.66666794px;font-family:'Arial Rounded MT Bold';-inkscape-font-specification:'Arial Rounded MT Bold, ';text-align:center;text-anchor:middle"
-         id="flowPara839-6">Synthèse des rapports vidéoludiques</flowPara></flowRoot>    <path
+    <path
        id="path1753-0"
        d="m 110.96534,213.35162 c 8.78363,18.83371 -15.878056,26.59303 -30.456736,32.61888"
        style="fill:none;stroke:#d61c1c;stroke-width:0.31647345px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-1)" />
+    <text
+       id="text1770"
+       y="205.42575"
+       x="73.893738"
+       style="font-style:normal;font-weight:normal;font-size:5.0126996px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12531748"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.12531748"
+         y="205.42575"
+         x="73.893738"
+         id="tspan1768">JOUEUR</tspan></text>
+    <text
+       id="text1770-2"
+       y="205.61269"
+       x="110.23785"
+       style="font-style:normal;font-weight:normal;font-size:5.0126996px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12531748"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.12531748"
+         y="205.61269"
+         x="110.23785"
+         id="tspan1768-6">DÉVELOPPEUR</tspan></text>
+    <text
+       id="text1770-9"
+       y="161.1402"
+       x="87.097908"
+       style="font-style:normal;font-weight:normal;font-size:10.21645069px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.25541124"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.25541124;-inkscape-font-specification:'Franklin Gothic Heavy, ';font-family:'Franklin Gothic Heavy';font-weight:normal;font-style:normal;font-stretch:normal;font-variant:normal"
+         y="161.1402"
+         x="87.097908"
+         id="tspan1768-67">JEU-VIDÉO</tspan></text>
+    <text
+       id="text1770-5"
+       y="260.94339"
+       x="59.18301"
+       style="font-style:normal;font-weight:normal;font-size:5.0126996px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12531748"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.12531748"
+         y="260.94339"
+         x="59.18301"
+         id="tspan1768-9">FINANCE</tspan></text>
+    <flowRoot
+       style="fill:black;fill-opacity:1;stroke:none;font-family:sans-serif;font-style:normal;font-weight:normal;font-size:40px;line-height:1.25;letter-spacing:0px;word-spacing:0px"
+       id="flowRoot1826"
+       xml:space="preserve"><flowRegion
+         id="flowRegion1828"><rect
+           y="-74.603172"
+           x="-417.46033"
+           height="525.39685"
+           width="868.25397"
+           id="rect1830" /></flowRegion><flowPara
+         id="flowPara1832"></flowPara></flowRoot>    <text
+       id="text1770-5-5"
+       y="261.02591"
+       x="94.703804"
+       style="font-style:normal;font-weight:normal;font-size:5.0126996px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12531748"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.12531748"
+         y="261.02591"
+         x="94.703804"
+         id="tspan1768-9-8">LUDISME</tspan></text>
+    <text
+       id="text1770-5-1"
+       y="260.94781"
+       x="125.51314"
+       style="font-style:normal;font-weight:normal;font-size:5.0126996px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.12531748"
+       xml:space="preserve"><tspan
+         style="stroke-width:0.12531748"
+         y="260.94781"
+         x="125.51314"
+         id="tspan1768-9-5">ESTHÉTIQUE</tspan></text>
+    <text
+       id="text1770-9-5"
+       y="292.56073"
+       x="105.79419"
+       style="font-style:normal;font-weight:normal;font-size:6.16682148px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.1541705"
+       xml:space="preserve"><tspan
+         id="tspan1888"
+         style="text-align:center;text-anchor:middle;stroke-width:0.1541705"
+         y="292.56073"
+         x="105.79419">Synthèse non-exhaustive des rapports vidéoludiques</tspan></text>
+    <image
+       xlink:href="jv.png"
+       y="152.59755"
+       x="71.389236"
+       id="image1900"
+       preserveAspectRatio="none"
+       height="10.894501"
+       width="9.9459763" />
   </g>
 </svg>
