@@ -42,7 +42,7 @@
      inkscape:pageopacity="0.0"
      inkscape:pageshadow="2"
      inkscape:zoom="1.1569609"
-     inkscape:cx="457.84454"
+     inkscape:cx="315.66169"
      inkscape:cy="342.86351"
      inkscape:document-units="mm"
      inkscape:current-layer="layer1"
@@ -62,7 +62,7 @@
         <dc:format>image/svg+xml</dc:format>
         <dc:type
            rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
-        <dc:title></dc:title>
+        <dc:title />
       </cc:Work>
     </rdf:RDF>
   </metadata>
@@ -71,6 +71,13 @@
      inkscape:groupmode="layer"
      id="layer1"
      transform="translate(0,-138.24998)">
+    <ellipse
+       style="opacity:1;fill:#ffffff;fill-opacity:1;stroke:#00dc58;stroke-width:1.75063813;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
+       id="path4572-9-6-4-0-5"
+       cx="57.743782"
+       cy="245.54514"
+       rx="50.80497"
+       ry="30.927109" />
     <ellipse
        style="opacity:1;fill:none;fill-opacity:1;stroke:#000000;stroke-width:0.52958536;stroke-miterlimit:4;stroke-dasharray:none;stroke-opacity:1"
        id="path4570"
@@ -249,7 +256,7 @@
          id="tspan5235"
          x="151.50343"
          y="209.60509"
-         style="stroke-width:0.26458332"></tspan></text>
+         style="stroke-width:0.26458332" /></text>
     <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
@@ -435,7 +442,7 @@
            height="299.47348"
            x="518.43524"
            y="159.81911" /></flowRegion><flowPara
-         id="flowPara5313"></flowPara></flowRoot>    <text
+         id="flowPara5313" /></flowRoot>    <text
        xml:space="preserve"
        style="font-style:normal;font-weight:normal;font-size:4.58611107px;line-height:1.25;font-family:sans-serif;letter-spacing:0px;word-spacing:0px;fill:#000000;fill-opacity:1;stroke:none;stroke-width:0.26458332"
        x="85.986771"
