@@ -169,18 +169,6 @@
          transform="matrix(0.8,0,0,0.8,10,0)" />
     </marker>
     <marker
-       style="overflow:visible"
-       id="Arrow1Lstart-5"
-       refX="0"
-       refY="0"
-       orient="auto">
-      <path
-         transform="matrix(0.8,0,0,0.8,10,0)"
-         style="fill:#d61c1c;fill-opacity:1;fill-rule:evenodd;stroke:#d61c1c;stroke-width:1.00000003pt;stroke-opacity:1"
-         d="M 0,0 5,-5 -12.5,0 5,5 Z"
-         id="path907-8" />
-    </marker>
-    <marker
        orient="auto"
        refY="0"
        refX="0"
@@ -361,7 +349,7 @@
          x="80.160881"
          id="tspan5125" /></text>
     <rect
-       onclick="&quot;window.open('https://www.google.com');&quot;"
+       onclick="window.open('https://schema.org/VideoGame');"
        y="144.03429"
        x="45.974628"
        height="27.702658"
@@ -477,10 +465,6 @@
        id="path2593"
        d="m 70.33725,192.27999 c -5.554326,-5.03562 -4.89044,-12.2659 -1.571783,-20.43316 l -0.196472,-0.19647"
        style="fill:none;stroke:#3124ff;stroke-width:0.265;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;stroke-miterlimit:4;stroke-dasharray:none;marker-start:url(#marker2779)" />
-    <path
-       id="path1753-9"
-       d="M 34.406104,1.6791873 C 15.404483,34.428832 -6.8144333,67.178438 2.8274817,99.928083 v 0 0"
-       style="fill:none;stroke:#d61c1c;stroke-width:0.99999994px;stroke-linecap:butt;stroke-linejoin:miter;stroke-opacity:1;marker-start:url(#Arrow1Lstart-5)" />
     <path
        id="path2593-0"
        d="m 94.534341,171.51007 c 11.556889,7.1664 3.67914,18.02437 -1.208728,20.01699 l 0.203637,0.17503"
