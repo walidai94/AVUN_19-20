@@ -104,7 +104,7 @@
         <div class="modal-body" id="modalEtuBody" >
             <ul class="nav nav-tabs" id="myTab" role="tablist">
                 <li class="nav-item">
-                    <a class="nav-link" id="sitePerso-tab" data-toggle="tab" href="#sitePerso" role="tab" aria-controls="sitePerso" aria-selected="false">Site Perso</a>
+                    <a class="nav-link" id="sitePerso-tab" data-toggle="tab" href="#sitePerso" role="tab" aria-controls="sitePerso" aria-selected="false">Modele SVG</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" id="diigoTags-tab" data-toggle="tab" href="#diigoTags" role="tab" aria-controls="diigoTags" aria-selected="true">Diigo Tags</a>
@@ -597,13 +597,13 @@ $('#infosEtu').on('show.bs.modal', function (e) {
     console.log(selectEtu);
 
     d3.select('#modalEtuTitle').text(selectEtu['Votre prénom']+' '+selectEtu['Votre nom']);
-    var url = "diigo.php?user="+selectEtu['Votre compte Diigo'];
+    var url = "http://www.samszo.univ-paris8.fr/DWM/18-19/diigo.php?user="+selectEtu['Votre compte Diigo'];
     var htm = '<p><a href="'+url+'">'+url+'</a></p>';
     htm += '<iframe id="ifDiigoEtu" title="Diigo étudiant" src="'+url+'"></iframe>';
     d3.select('#diigoTags').html(htm);
-    url = selectEtu['site'];
+    url = "../"+selectEtu['Votre compte GitHub']+"/modele.svg";
     htm = '<p><a href="'+url+'">'+url+'</a></p>';
-    htm += '<iframe id="ifSitePerso" title="Site Perso" src="'+url+'"></iframe>';
+    htm += '<iframe id="ifSitePerso" title="Modèle SVG" src="'+url+'"></iframe>';
     d3.select('#sitePerso').html(htm);
  
     /*selectEtu['Votre compte Diigo']
